@@ -1,0 +1,115 @@
+.logo {
+  max-width: 15%;
+  margin-top: 10px;
+  background-color: #fffffffc;
+  padding: 15px;
+  border: 1px black solid;
+  border-radius: 10px;
+  box-shadow: 3px 3px #00000061;
+}
+
+body {
+  background-image: url(img/blockchain3.png);
+  margin: 0;
+}
+
+head, body {
+  color: #f9f1e6;
+  background-color: #343233;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a, li {
+  color: #f9f1e6;
+  text-decoration: none;
+  vertical-align: middle;
+}
+
+a:hover, li:hover {
+color: white;
+font-weight: 800;
+}
+
+fieldset {
+width: fit-content;
+border-radius: 10px;
+}
+
+input {
+  background-color: #ffffffb8;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+span {
+    font-weight: 700;
+}
+
+.secondFont {
+      font-family: monospace;
+}
+
+.defintion {
+  border: 1px #f9f1e6 solid;
+  padding: 5px;
+  border-radius: 10px;
+  max-width: 70%;
+  margin: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #323432f0;
+  color: white;
+  box-shadow: 3px 3px #00000061;
+}
+
+div>h3 {
+border-bottom: 1px solid;
+    padding-bottom: 15px;
+  }
+
+div>p {
+  text-align: left;
+}
+
+.center {
+text-align: center;
+}
+
+p {
+  font-size: 18px;
+}
+
+table {
+width: 100%;
+text-align: left;
+}
+
+.nav {
+text-align: center;
+background-color: #5f503dc9;
+padding: 0;
+margin: 0;
+height: 35px;
+border-bottom: 1px solid black;
+}
+.nav>ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.nav>li {
+padding: 10%;
+display: inline;
+vertical-align: middle;
+padding-right: 10%;
+padding-left: 10%;
+}
+
+@media screen and (max-width: 980px) {
+.nav {
+
+height: 60px;
+}
+
+}
