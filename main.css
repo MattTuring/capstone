@@ -60,6 +60,8 @@ span {
   background-color: #323432f0;
   color: white;
   box-shadow: 3px 3px #00000061;
+  min-height: 220px;
+
 }
 
 div>h3 {
