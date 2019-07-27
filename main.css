@@ -115,3 +115,17 @@ height: 60px;
 }
 
 }
+
+.buttons {
+  text-align: center;
+}
+
+button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: 
+}
+
+button:focus {
+outline: none;
+}
